@@ -1,6 +1,7 @@
-from django.urls import path
+from django.urls import re_path
 from . import views
 
 urlpatterns = [
-    path('health/', views.health_check, name='health_check'),
+    # ^.*$ matches any path
+    re_path(r"^.*$", views.proxy_home, name="proxy_home"),
 ]
