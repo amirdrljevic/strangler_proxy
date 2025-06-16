@@ -1,0 +1,12 @@
+[
+    {
+        "match_type": "path_prefix",
+        "pattern": "/legacy/",
+        "target": "http://localhost:9001"
+    },
+    {
+        "match_type": "path_prefix",
+        "pattern": "/new/",
+        "target": "http://localhost:9002"
+    }
+]
