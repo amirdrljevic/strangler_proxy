@@ -1,5 +1,3 @@
-# proxy_app/management/commands/load_rules.py
-
 import json
 from pathlib import Path
 
